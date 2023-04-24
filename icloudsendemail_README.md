@@ -10,19 +10,17 @@ Python 3.x installed
 An email account with iCloud
 An app password created in iCloud account (to use outside Apple developer projects)
 The email address and app password stored in your terminal as environment variables
+
 Usage
 
 To use this script, follow these steps:
 
-Clone or download this repository to your local machine.
-Open a terminal window and navigate to the project directory.
-Set the email address and app password as environment variables by running the following commands:
-arduino
-Copy code
-export SENDER_EMAIL=<your email address>
-export SENDER_PASSWORD=<your app password>
-Modify the recipients list, attachment_path variable, and the email content to your needs.
-Run the script by executing the following command in your terminal:
-Copy code
-python emailsend.py
-Check the log file email.log to verify that the email was sent successfully.
+1.) Clone or download this repository to your local machine.
+2.) Open a terminal window and navigate to the project directory.
+3.) Set the email address and app password as environment variables by running the following commands:
+		export SENDER_EMAIL=<your email address>
+		export SENDER_PASSWORD=<your app password>
+4.) Modify the recipients list, attachment_path variable, and the email content to your needs.
+5.) Run the script by executing the following command in your terminal:
+  	python emailsend.py
+6.) Check the log file email.log to verify that the email was sent successfully.
