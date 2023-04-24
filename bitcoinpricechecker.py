@@ -1,3 +1,4 @@
+# Author: Miguel Ibarra【=◈︿◈=】
 # Get the current value of a Bitcoin in US dollars using the bitcoincharts api
 import requests
 import json

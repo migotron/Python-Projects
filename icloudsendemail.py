@@ -1,3 +1,5 @@
+# Author: Miguel Ibarra【=◈︿◈=】
+# Send an email using iCloud email, environment variables, and SMTP
 import smtplib
 import os
 import imghdr
